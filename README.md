@@ -20,6 +20,21 @@ npm i -g @nest/cli
 docker compose up -d
 ```
 
+5. Clonar el archivo __.env.template__
+
+
+6. Llenar las variables de entornos definidas en el ```.env```
+
+8. Ejecutar la aplicacion en dev:
+```
+yarn start:dev
+```
+
+8. Reconstruir la base de datos con la semilla
+```
+http://localhost:3000/api/seed
+```
+
 
 
 ## Stack usado
